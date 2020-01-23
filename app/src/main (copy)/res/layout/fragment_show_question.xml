@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ShowQuestion">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/QText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Question:"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+        android:id="@+id/QuestionDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/QText"
+        app:layout_constraintLeft_toLeftOf="@+id/QText"/>
+
+    <RadioGroup
+        android:id="@+id/OptionsR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionDisplay"
+        app:layout_constraintLeft_toLeftOf="@+id/QuestionDisplay">
+        <RadioButton
+            android:id="@+id/OptionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/OptionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/OptionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <RadioButton
+            android:id="@+id/OptionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="20dp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/SubmitQA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:layout_marginLeft="150dp"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/OptionsR"
+        app:layout_constraintLeft_toLeftOf="@+id/OptionsR"
+        />
+</android.support.constraint.ConstraintLayout>
+</FrameLayout>

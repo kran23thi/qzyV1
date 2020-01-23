@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuizActivity">
+
+    <EditText
+        android:id="@+id/EditTextQuizId"
+        android:text="Quiz Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/EditTextQuizTitle"
+        android:text="Quiz Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQuizId"/>
+    <EditText
+        android:id="@+id/EditTextQuizCatagory"
+        android:text="Quiz Catagory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQuizTitle"/>
+    <EditText
+        android:id="@+id/EditTextQuiztags"
+        android:text="Quiz tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQuizCatagory"/>
+    <EditText
+        android:id="@+id/EditTextQuizAddedDt"
+        android:text="Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQuiztags"/>
+    <Button
+        android:id="@+id/BtnAddQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Add Quiz"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/EditTextQuizAddedDt"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+{
+  "Qs": [
+    {
+      "Qid": "QCloud011",
+      "Question": "AWS Full form?",
+      "Category": "Cloud",
+      "OptionA" : "Awesome web service",
+      "OptionB": "Active wired service",
+      "OptionC": "Amazon Web Service",
+      "OptionD": "Analog Web Service",
+      "Answer": "Amazon Web Service"
+    },
+    {
+      "Qid": "QCloud012",
+      "Question": "When creating an AWS CloudFront distribution, which of the following is not an origin?",
+      "Category": "Cloud",
+      "OptionA" : "Elastic Load Balancer",
+      "OptionB": "AWS S3 bucket",
+      "OptionC": "AWS MediaPackage channel endpoint",
+      "OptionD": "AWS Lambda",
+      "Answer": "AWS Lambda"
+    },
+    {
+      "Qid": "QCloud013",
+      "Question": "TestQ3",
+      "Category": "",
+      "OptionA" : "",
+      "OptionB": "",
+      "OptionC": "",
+      "OptionD": "",
+      "Answer": ""
+    },
+    {
+      "Qid": "QCloud014",
+      "Question": "TestQ4",
+      "Category": "",
+      "OptionA" : "",
+      "OptionB": "",
+      "OptionC": "",
+      "OptionD": "",
+      "Answer": ""
+    },
+    {
+      "Qid": "",
+      "Question": "",
+      "Category": "",
+      "OptionA" : "",
+      "OptionB": "",
+      "OptionC": "",
+      "OptionD": "",
+      "Answer": ""
+    }
+  ]
+}

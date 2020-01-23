@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Qzy</string>
+    <string name="preferece_file_key">qzyAppPref</string>
+    <string name="Pref">Preferences</string>
+    <string name="Notification_Settings">Yes</string>
+    <string name="default_checkbox_preference">Yes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

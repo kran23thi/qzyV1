@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddQuizActivity">
+
+    <EditText
+        android:id="@+id/EditTextQId"
+        android:text="Q Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/EditTextQ"
+        android:text="Enter Questioin Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQId"/>
+    <EditText
+        android:id="@+id/EditTextQCatagory"
+        android:text="Question category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQ"/>
+    <EditText
+        android:id="@+id/EditTextQOptA"
+        android:text="Option A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQCatagory"/>
+    <EditText
+        android:id="@+id/EditTextQOptB"
+        android:text="Option B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQOptA"/>
+    <EditText
+        android:id="@+id/EditTextQOptC"
+        android:text="Option C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQOptB"/>
+    <EditText
+        android:id="@+id/EditTextQOptD"
+        android:text="Option D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQOptC"/>
+    <EditText
+        android:id="@+id/QAnswer"
+        android:text="Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_below="@+id/EditTextQOptD"/>
+    <Button
+        android:id="@+id/BtnAddQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Add Question"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/QAnswer"/>
+
+</RelativeLayout>
